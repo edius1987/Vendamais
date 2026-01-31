@@ -1,0 +1,22 @@
+[project]
+name = "vendamais"
+version = "1.0.0"
+description = "Sistema de Gestão de Vendas e Estoque com GTK4"
+requires-python = ">=3.12"
+dependencies = [
+    "PyGObject>=3.46.0",
+    "matplotlib>=3.8.0",
+]
+
+[project.scripts]
+vendamais = "vendamais.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+]

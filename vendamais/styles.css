@@ -1,0 +1,19 @@
+/* Estilos customizados opcionais */
+.card {
+    background-color: @card_bg_color;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.success {
+    color: @green_4;
+}
+
+.error {
+    color: @red_4;
+}
+
+.total-highlight {
+    font-size: 2em;
+    font-weight: bold;
+}
